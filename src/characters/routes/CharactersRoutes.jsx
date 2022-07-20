@@ -4,7 +4,7 @@ import { CharactersPage } from "../pages/CharactersPage"
 import { CharacterPage } from "../pages/CharacterPage"
 import { FavoritesPage } from "../pages/FavoritesPage"
 
-export const HeroesRoutes = () => {
+export const CharactersRoutes = () => {
     return (
         <>
             <Navbar />
