@@ -1,6 +1,5 @@
 import { useQuery } from '@apollo/client';
 import { GET_RESULT } from '../../apollo/querys/charactersQuery';
-// import { GET_RESULT_ID } from '../../apollo/querys/charactersQuery';
 import { CharacterCard } from "./CharacterCard";
 
 export const CharacterList = () => {
@@ -18,6 +17,7 @@ export const CharacterList = () => {
 
                     <CharacterCard
                         key={id}
+                        id={id}
                         name={name}
                         image={image}
                         gender={gender}
