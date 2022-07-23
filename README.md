@@ -17,9 +17,9 @@
 - Consumo de api Graphql con Apollo/Client
 - Manejo de estado en Redux
 - Persistencia datos con LocalStorage
-- React/Router para manejo de navegación
+- React/Router para navegación entre componentes
 - Estilos con Bootstrap mediante CDN
 - Animaciones con Animate.css mediante CDN
-- Principio de resposabilidad unica en funciones y componentes
+- Principio de resposabilidad única en funciones y componentes
 - Reutilizacion de componentes
-- reduccion de lineas de código mediante archivos de barril y programacion funcional 
+- Reducción de líneas de código mediante archivos de barril y programación funcional 
