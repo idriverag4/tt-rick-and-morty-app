@@ -20,7 +20,7 @@ export const CharactersRoutes = () => {
                     <Route path="character/:id" element={<CharacterPage />} />
 
                     <Route path="/" element={<Navigate to="/characters" />} />
-                    <Route path="/*" element={<Navigate to="/characters" />} />
+                    {/* <Route path="/*" element={<Navigate to="/characters" />} /> */}
                 </Routes>
             </div>
         </>
