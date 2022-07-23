@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 export const RickAndMortyApp = () => {
     return (
         <Provider store={store}>
-            <AppRouter />
+            <AppRouter /> 
         </Provider>
     )
 }
