@@ -1,7 +1,7 @@
 import { useQuery } from '@apollo/client';
-import { GET_RESULT } from '../../apollo/querys/charactersQuery';
-import { CharacterCard } from "../components/CharacterCard";
-import { setfavoriteThunks } from "../../store/slices/favoriteThunks";
+import { GET_RESULT } from '../../apollo/querys';
+import { CharacterCard } from "../components";
+import { setfavoriteThunks } from "../../store/slices";
 
 export const CharactersPage = () => {
     

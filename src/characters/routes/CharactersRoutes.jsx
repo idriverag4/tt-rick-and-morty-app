@@ -1,10 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom"
 import { Navbar } from "../../ui/Navbar"
-import { CharactersPage } from "../pages/CharactersPage"
-import { CharacterPage } from "../pages/CharacterPage"
-import { FavoritesPage } from "../pages/FavoritesPage"
-import { Exercise1 } from "../pages/Exercise1"
-import { Exercise2 } from "../pages/Exercise2"
+import { CharactersPage, CharacterPage, FavoritesPage, Exercise1, Exercise2 } from "../pages"
 
 export const CharactersRoutes = () => {
     return (

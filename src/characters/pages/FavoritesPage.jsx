@@ -1,6 +1,6 @@
 import React from 'react'
-import { setfavoriteThunks } from '../../store/slices/favoriteThunks';
-import { CharacterCard } from '../components/CharacterCard';
+import { setfavoriteThunks } from '../../store/slices';
+import { CharacterCard } from '../components';
 
 export const FavoritesPage = () => {
 

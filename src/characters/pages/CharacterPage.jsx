@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
-import { useParams, Navigate, useNavigate } from "react-router-dom"
-import { GET_RESULT_ID } from '../../apollo/querys/characterByIdQuery';
+import { useParams, useNavigate } from "react-router-dom"
+import { GET_RESULT_ID } from '../../apollo/querys';
 
 export const CharacterPage = () => {
 
